@@ -6,9 +6,15 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     background-color: #f9f9f9;
 }
+h2 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2em;
+}
+
 /*Header*/
 header {
     background-color: #ffcc00;
@@ -204,6 +210,90 @@ nav .buttons a {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
 }
 
+/*FAQ*/
+/* Fondo degradado */
+.header-container {
+    background: linear-gradient(135deg, #F97316, #ffc107); 
+    padding: 40px 0; 
+    text-align: center; 
+}
+
+.header-container h2 {
+    font-size: 2.5em;
+    color: #333; 
+    margin-bottom: 20px; 
+}
+
+/* Barra de búsqueda */
+.faq-search {
+    width: 50%;
+    padding: 15px;
+    font-size: 1.2em;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+.faq-search {
+    display: block;
+    margin: 20px auto;
+    width: 70%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+/* Contenedor de las opciones de FAQ */
+.faq-options-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 70px; 
+    width: 70%; 
+    margin: 0 auto; 
+    padding: 30px;
+}
+
+/* Estilos de cada cuadro */
+.faq-option {
+    background-color: #ffc107;
+    padding: 20px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.faq-option:hover {
+    transform: scale(1.05);
+}
+
+.faq-option img {
+    max-width: 60px; 
+    margin-bottom: 10px;
+}
+
+.faq-option h3 {
+    font-size: 1.2em; 
+}
+
+/* Estilos para las preguntas frecuentes */
+.faq-questions-container {
+    padding: 20px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.faq-item {
+    margin-bottom: 20px;
+}
+
+.faq-question {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.faq-answer {
+    margin-top: 8px;
+}
 
 /*Pie de Pagina*/
 footer {
