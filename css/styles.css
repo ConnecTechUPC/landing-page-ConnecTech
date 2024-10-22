@@ -273,6 +273,31 @@ nav .buttons a {
     background-color: #1D4ED8; /* Color al pasar el mouse */
 }
 
+/*Team*/
+.team {
+    padding: 50px;
+    background-color: white; /* Color de fondo de la sección del equipo */
+    text-align: center;
+}
+
+.team h2 {
+    font-size: 2em;
+    margin-bottom: 40px;
+}
+
+.team-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.team-member {
+    width: 30%;
+    background-color: #e0f7fa; /* Cambia este color si lo deseas */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
 /*Pie de Pagina*/
 footer {
     padding: 20px;
