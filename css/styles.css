@@ -354,6 +354,13 @@ footer img {
 
 
 /* Sobre nosotros */
+.head-about h2{
+    font-size: 2em;
+    justify-content: center;
+    margin-left: 500px;
+    align-items: center;
+    color:#ffc107;
+}
 .container{
     max-width: 1200px;
     margin: 0 auto;
@@ -401,10 +408,9 @@ footer img {
     width: 30; 
     max-width: 50%; 
     height: auto; 
-    margin: 0 200px;
+    margin: 0 300px;
 }
 
 .story-content h2{
-    margin-right: 300px;
-    margin-left: 200px;
+    margin-left: 400px;
 }
