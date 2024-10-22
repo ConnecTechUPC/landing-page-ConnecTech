@@ -30,6 +30,48 @@ nav ul li a {
 }
 
 
+
+nav .buttons a {
+    margin-left: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn-login {
+    background-color: #ff9f43;
+    color: white;
+}
+
+.btn-register {
+    background-color: #F97316;
+    color: white;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px;
+    background-color: white;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+}
+
+.hero p {
+    margin: 20px 0;
+    font-size: 1.2em;
+}
+
+.btn-explorar {
+    padding: 15px 30px;
+    background-color: #F97316;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
 /*Seccion de introduccion */
 .hero {
     display: flex; /* Usamos flexbox para alinear elementos */
