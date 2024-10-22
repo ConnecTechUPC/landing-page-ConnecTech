@@ -1,3 +1,77 @@
+/*Header*/
+header {
+    background-color: #ffcc00;
+    padding: 20px;
+}
+header img {
+    max-width: 100px; /* Asegura que la imagen no se salga del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    width: 150px; /* Ajusta este valor a la anchura deseada */
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: larger;
+    font-family: monospace;
+}
+
+
+/*Seccion de introduccion */
+.hero {
+    display: flex; /* Usamos flexbox para alinear elementos */
+    align-items: center; /* Centra verticalmente la imagen y el contenido */
+    justify-content: space-between; /* Separa los elementos: imagen a la izquierda, contenido a la derecha */
+    padding: 50px;
+    background-color: #fff; /* Color de fondo */
+}
+
+.hero img {
+    width: 30; /* Ajusta el tamaño de la imagen (puedes cambiarlo según sea necesario) */
+    max-width: 100%; /* Asegúrate de que no se desborde */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin-right: 200px; /* Espacio entre la imagen y el contenido */
+}
+.hero { /*centrar el contenido */
+    justify-content: center;
+}
+
+.hero-content {
+    max-width: 50%; /* Controla el ancho del contenido para que no sea demasiado ancho */
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.btn-explorar {
+    padding: 15px 30px;
+    background-color: #ff6b6b;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/*caracteristicas*/
 .features {
     padding: 50px;
     background-color: #FACC15; /* Color de fondo de la sección de características */
@@ -27,4 +101,210 @@
     max-width: 100%; /* Asegura que la imagen no se salga del recuadro */
     border-radius: 5px; /* Bordes redondeados para las imágenes */
     margin-bottom: 10px; /* Espacio entre la imagen y el texto */
+
+/*FAQ*/
+/* Fondo degradado */
+.header-container {
+    background: linear-gradient(135deg, #F97316, #ffc107); 
+    padding: 40px 0; 
+    text-align: center; 
+}
+
+.header-container h2 {
+    font-size: 2.5em;
+    color: #333; 
+    margin-bottom: 20px; 
+}
+
+/* Barra de búsqueda */
+.faq-search {
+    width: 50%;
+    padding: 15px;
+    font-size: 1.2em;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+.faq-search {
+    display: block;
+    margin: 20px auto;
+    width: 70%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+/* Contenedor de las opciones de FAQ */
+.faq-options-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 70px; 
+    width: 70%; 
+    margin: 0 auto; 
+    padding: 30px;
+    cursor: pointer;
+}
+
+/* Estilos de cada cuadro */
+.faq-option {
+    background-color: #ffc107;
+    padding: 20px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.faq-option:hover {
+    transform: scale(1.05);
+}
+
+.faq-option img {
+    max-width: 60px; 
+    margin-bottom: 10px;
+}
+
+.faq-option h3 {
+    font-size: 1.2em; 
+}
+
+/* Estilos para las preguntas frecuentes */
+.faq-questions-container {
+    padding: 20px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.faq-item {
+    margin-bottom: 20px;
+}
+
+.faq-question {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.faq-answer {
+    margin-top: 8px;
+}
+
+.subscribe {
+    background-color: #3B82F6; /* Color de fondo de la sección de suscripción */
+    padding: 20px;
+    border-radius: 8px; /* Bordes redondeados */
+    border-color: black;
+    text-align: center; /* Centrar el texto */
+}
+
+.subscribe h3 {
+    margin-bottom: 10px; /* Espacio debajo del título */
+}
+
+.subscribe p {
+    margin-bottom: 15px; /* Espacio debajo del párrafo */
+}
+
+.subscribe input[type="email"] {
+    width: 100%; /* Ancho completo */
+    padding: 10px; /* Espaciado interno */
+    margin-bottom: 10px; /* Espacio debajo del campo de entrada */
+    border: 1px solid #ccc; /* Borde de entrada */
+    border-radius: 4px; /* Bordes redondeados */
+}
+
+.privacy-policy {
+    text-align: left; /* Alinear el texto a la izquierda */
+    margin-bottom: 10px; /* Espacio debajo de la casilla de verificación */
+}
+
+.subscribe button {
+    padding: 10px 20px; /* Espaciado interno */
+    background-color: #FACC15; /* Color del botón */
+    color: white; /* Color del texto del botón */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar el mouse */
+}
+
+.subscribe button:hover {
+    background-color: #1D4ED8; /* Color al pasar el mouse */
+}
+
+/*Pie de Pagina*/
+footer {
+    padding: 20px;
+    background-color: #3B82F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Alinear al inicio verticalmente */
+}
+
+.footer-logo {
+    max-width: 100px; /* Ajusta el tamaño del logo según sea necesario */
+    height: auto; /* Mantiene la proporción */
+    margin-bottom: 10px; /* Espacio debajo del logo */
+}
+
+.social-media, .subscribe {
+    width: 30%;
+    text-align: center;
+}
+
+.social-media p {
+    margin-bottom: 10px; /* Espacio debajo del texto "¿Qué puedo hacer por ti?" */
+}
+footer a {
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+}
+
+/* Estilo para las imágenes de redes sociales en el footer */
+footer img {
+    max-width: 50px; /* Ajusta el ancho máximo según sea necesario */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+/* Elementos para la parte de suscripción */
+.subscribe {
+    background-color: #3B82F6; /* Color de fondo de la sección de suscripción */
+    padding: 20px;
+    border-radius: 8px; /* Bordes redondeados */
+    border-color: black;
+    text-align: center; /* Centrar el texto */
+}
+
+.subscribe h3 {
+    margin-bottom: 10px; /* Espacio debajo del título */
+}
+
+.subscribe p {
+    margin-bottom: 15px; /* Espacio debajo del párrafo */
+}
+
+.subscribe input[type="email"] {
+    width: 100%; /* Ancho completo */
+    padding: 10px; /* Espaciado interno */
+    margin-top: 10px;
+    margin-bottom: 10px; /* Espacio debajo del campo de entrada */
+    border: 1px solid #ccc; /* Borde de entrada */
+    border-radius: 4px; /* Bordes redondeados */
+}
+
+.privacy-policy {
+    text-align: left; /* Alinear el texto a la izquierda */
+    margin-bottom: 10px; /* Espacio debajo de la casilla de verificación */
+}
+
+.subscribe button {
+    padding: 10px 20px; /* Espaciado interno */
+    background-color: #FACC15; /* Color del botón */
+    color: white; /* Color del texto del botón */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar el mouse */
+}
+
+.subscribe button:hover {
+    background-color: #1D4ED8; /* Color al pasar el mouse */
 }
