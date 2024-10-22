@@ -71,6 +71,37 @@ nav ul li a {
     border-radius: 5px;
 }
 
+/*caracteristicas*/
+.features {
+    padding: 50px;
+    background-color: #FACC15; /* Color de fondo de la sección de características */
+    text-align: center;
+    margin-bottom: 50px; /* Margen inferior para separar de la siguiente sección */
+}
+
+.features h2 {
+    font-size: 2em;
+    margin-bottom: 40px;
+}
+
+.feature-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.feature {
+    background-color: #e0f7fa; /* Cambia este color por el que desees */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 8px; /* Bordes redondeados */
+    width: 30%; /* Ancho del recuadro */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.feature img {
+    max-width: 100%; /* Asegura que la imagen no se salga del recuadro */
+    border-radius: 5px; /* Bordes redondeados para las imágenes */
+    margin-bottom: 10px; /* Espacio entre la imagen y el texto */
+
 /*FAQ*/
 /* Fondo degradado */
 .header-container {
