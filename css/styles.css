@@ -351,3 +351,66 @@ footer img {
 .subscribe button:hover {
     background-color: #1D4ED8; /* Color al pasar el mouse */
 }
+
+
+/* Sobre nosotros */
+.head-about h2{
+    font-size: 2em;
+    justify-content: center;
+    margin-left: 500px;
+    align-items: center;
+    color:#ffc107;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    justify-content: center;
+
+}
+
+.mision-content{
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 50px;
+    background-color: #fff; 
+}
+
+.mision-content img {
+    width: 30; 
+    max-width: 70%; 
+    height: auto; 
+    margin-left: 200px; 
+}
+
+.vision-content{
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 50px;
+    background-color: #fff; 
+}
+
+.vision-content img {
+    width: 30; 
+    max-width: 60%; 
+    height: auto; 
+}
+.story-content{
+    display: grid; 
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 50px;
+    background-color: #fff; 
+}
+.story-content img {
+    width: 30; 
+    max-width: 50%; 
+    height: auto; 
+    margin: 0 300px;
+}
+
+.story-content h2{
+    margin-left: 400px;
+}
