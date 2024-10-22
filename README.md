@@ -50,7 +50,7 @@ Estudiantes universitarios o de cursos especializados en áreas tecnológicas co
 ![Estudiantes](img/EstudiantesTec)
 
 ---
-## Características principales de ProDriver+
+## Características principales de ConnecTech
 
 - Personalización de perfiles.
 - Optimización de visibilidad de eventos.
