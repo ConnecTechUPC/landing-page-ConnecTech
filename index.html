@@ -6,37 +6,235 @@
     <title>ConnecTech</title>
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Inter:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
     <!-- Barra de navegación-->
-    
-
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="img/logo.jpg" alt="ConnecTech Logo">
+                <span>   ConnecTech   </span>
+            </div>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Eventos</a></li>
+                <li><a href="#">Networking</a></li>
+                <li><a href="#">Recursos</a></li>
+            </ul>
+            <div class="buttons">
+                <a href="#" class="btn-login">Iniciar Sesión</a>
+                <a href="#" class="btn-register">Registrarse</a>
+            </div>
+        </nav>
+    </header>
     <main>        
         <!-- Sección de introducción -->
-        
+        <section class="hero">
+            <img src="img/ConnectOrange.jpg" alt="Connect">
+            <div class="hero-content">
+                <h1>Únete a la Red de Innovadores en Tecnología</h1>
+                <p>"Descubre eventos que impulsarán tu carrera y conecta con líderes de la industria.
+                    ConnecTech es una solución revolucionaria en el ámbito de la organización de eventos tecnológicos, diseñada para abordar los desafíos críticos que enfrentan los profesionales y entusiastas de la tecnología al buscar oportunidades de networking y aprendizaje."</p>
+                <a href="#" class="btn-explorar">Explorar Eventos</a>
+            </div>
+        </section>
 
         <!-- Sección de nosotros -->
         <!-- Aquí va la sección de nosotros -->
+        <section class="about-us">
+            <div class="head-about">
+                <h2 class="titulo">Sobre nosotros</h2>
+            </div>
+            <div class="container">
+                <div class="mision-content">
+                    <div class="mision-text">
+                        <h2>Nuestra mision</h2>
+                        <p>Transformar la experiencia de los eventos tecnológicos, facilitando conexiones significativas y accesibles para todos los miembros de la comunidad tecnológica</p>
+                    </div>
+                    <div class="mision-image">
+                        <img src="img/mision.jpeg" alt="">
+                    </div>
+                </div>
+                <div class="vision-content">
+                    <div class="vision-image">
+                        <img src="img/vision.jpeg" alt="">
+                    </div>
+                    <div class="vision-text">
+                        <h2>Nuestra vision</h2>
+                        <p>Construir un ecosistema tecnológico global donde cada individuo pueda acceder equitativamente a oportunidades de aprendizaje y networking, impulsando así el avance continuo de la tecnología y la sociedad.</p>
+                    </div>
+                </div>
+                <div class="story-content">
+                    <div class="story-text">
+                        <h2>Nuestra historia</h2>
+                        <p>Somos un grupo de estudiantes apasionados por la tecnología que, en 2024, decidimos crear una plataforma para organizar eventos que conecten a jóvenes profesionales y entusiastas del sector. Desde entonces, hemos trabajado juntos para ofrecer talleres y conferencias que fomenten el aprendizaje y el intercambio de ideas. Nuestro objetivo es crear un espacio donde todos puedan crecer y compartir su pasión por la tecnología.</p>
+                    </div>
+                    <div class="story-image">
+                        <img src="img/story.avif" alt="">
+                    </div>
+                </div>
+            </div>
+            
+         </section>
         
         <!-- Sección de características -->
+        <section class="features">
+            <h2>Características Clave</h2>
+            <div class="feature-list">
+                <div class="feature">
+                    <img src="img/AccesoExclusivo.jpg" alt="Acceso Exclusivo">
+                    <p>Acceso a Exclusivos eventos</p>
+                </div>
+                <div class="feature">
+                    <img src="img/OportunidadesLaborales.jpg" alt="Oportunidades laborales">
+                    <p>Oportunidades de desarrollo laboral</p>
+                </div>
+                <div class="feature">
+                    <img src="img/CrecimientoPersonal.jpg" alt="Crecimiento profesional">
+                    <p>Crecimiento académico y profesional</p>
+                </div>
+            </div>
+        </section>
         
 
         <!-- Sección de testimonios -->
         <!-- Aquí va la sección de testimonios -->
 
         <!-- Sección de preguntas frecuentes -->
+        <section id="faq">
+            <div class="header-container">
+                <h2>👋 ¿En qué podemos ayudarte?</h2>
+    
+                <!-- Barra de búsqueda -->
+                <nav>
+                    <input type="text" placeholder="FAQ..." class="faq-search">
+                </nav>
+            </div>
+    
+            <!-- Sección de los cuadros -->
+            <div class="faq-options-container"> 
+                <div class="faq-option">
+                    <img src="img/network1.png" alt="Getting Started Icon">
+                    <h3>Getting Started</h3>
+                </div>
+    
+                <div class="faq-option">
+                    <img src="img/network2.jpg" alt="Oyster Resources Icon">
+                    <h3>Recursos de ConnecTech</h3>
+                </div>
+    
+                <div class="faq-option">
+                    <img src="img/network3.jpg" alt="Submit a Request Icon">
+                    <h3>Crear un evento</h3>
+                </div>
+    
+                <div class="faq-option">
+                    <img src="img/network4.png" alt="Product Updates Icon">
+                    <h3>Sobre eventos online</h3>
+                </div>
+            </div>
+    
+            <div class="faq-questions-container">
+                <div class="faq-item">
+                    <h3 class="faq-question">¿Cómo me registro en la plataforma?</h3>
+                    <p class="faq-answer">Para registrarte, haz clic en "Registrarse" en la parte superior y completa el formulario.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3 class="faq-question">¿Cuáles son los métodos de pago disponibles?</h3>
+                    <p class="faq-answer">Aceptamos pagos con tarjeta de crédito, débito, Yape, Plin.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3 class="faq-question">¿Qué tipo de eventos tecnológicos organiza la plataforma?</h3>
+                    <p class="faq-answer">La plataforma organiza conferencias, talleres, hackatones enfocadas en innovación y desarrollo tecnológico.</p>
+                </div>
+    
+                <div class="faq-item">
+                    <h3 class="faq-question">¿Cómo se seleccionan los ponentes para los eventos?</h3>
+                    <p class="faq-answer">Los ponentes son seleccionados en función de su experiencia en la industria, sus contribuciones al campo y su capacidad para ofrecer contenido relevante y atractivo.</p>
+                </div>
+    
+                <div class="faq-item">
+                    <h3 class="faq-question">¿La plataforma ofrece oportunidades de networking durante los eventos?</h3>
+                    <p class="faq-answer">Sí, se facilitan sesiones de networking y espacios virtuales donde los asistentes pueden conectarse, intercambiar ideas y crear colaboraciones.</p>
+                </div>
+    
+                <div class="faq-item">
+                    <h3 class="faq-question">¿Existen descuentos para grupos o estudiantes?</h3>
+                    <p class="faq-answer">Sí, ofrecemos descuentos especiales para grupos y estudiantes; puedes consultar la sección de precios en la página de cada evento para más detalles.</p>
+                </div>
+    
+            </div>
+        </section>
+    
+      
         <!-- Aquí va la sección de preguntas -->
         
         <!-- Sección de equipo -->
-        
+        <section class="team">
+            <h2>Conoce a Nuestro Equipo</h2>
+            <div class="team-list">
+                <div class="team-member">
+                    <img src="img/ximena.png" alt="Ximena Chavarria">
+                    <p>Co - Fundador y Desarrollador de ConnecTech</p>
+                </div>
+                <div class="team-member">
+                    <img src="img/joaquin.png" alt="Joaquin Arevalo">
+                    <p>Co - Fundador y Desarrollador de ConnecTech</p>
+                </div>
+                <div class="team-member">
+                    <img src="img/nicole.png" alt="Nicole Vazques">
+                    <p>Co - Fundador y Desarrollador de ConnecTech</p>
+                </div>
+                <div class="team-member">
+                    <img src="img/dayana.png" alt="Dayana Gomez">
+                    <p>Co - Fundador y Desarrollador de ConnecTech</p>
+                </div>
+                <div class="team-member">
+                    <img src="img/shirley.jpeg" alt="Shirley Huaringa">
+                    <p>Co - Fundador y Desarrollador de ConnecTech</p>
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer>
         <!-- Sección de footer -->
+         <!-- Sección de footer -->
+        <div class="footer-info">
+            <img src="img/logo2.jpg" alt="Logo" class="footer-logo"> 
+        </div>
+        <div class="social-media">
+            <p class="question">¿Qué puedo hacer por ti?</p> <!-- Texto en su propio contenedor -->
+            <a href="#">Información de Contacto</a>
+            <a href="#">Política de Privacidad</a>
+            <a href="#">Términos de Servicio</a>
+        </div>
+        <div class="social-media">
+            <a href="#"><img src="img/fb.jpg" alt="Facebook"></a>
+            <a href="#"><img src="img/x.jpg" alt="X"></a>
+            <a href="#"><img src="img/linkedin.jpg" alt="LinkedIn"></a>
+            <a href="#"><img src="img/yt.jpg" alt="YouTube"></a>
+        </div>
+
     
         <!-- Sección de contacto -->
-        
+        <div class="subscribe">
+            <h3>SUSCRÍBETE PARA MÁS INFORMACIÓN</h3>
+            <p>Recibe ofertas, novedades y eventos próximos!</p>
+            <label for="email">¿Cuál es tu correo electrónico?</label>
+            <input type="email" id="email" placeholder="Correo electrónico" required>
+            
+            <div class="privacy-policy">
+                <input type="checkbox" id="privacy" required>
+                <label for="privacy">He leído y acepto la<a href="ruta-a-la-politica.html" target="_blank" style="text-decoration: underline;">política de privacidad</a></label>
+            </div>
+            
+            <button>QUIERO SUSCRIBIRME</button>
+        </div>
         
     </footer>
 </body>
