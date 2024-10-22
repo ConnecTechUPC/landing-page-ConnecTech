@@ -143,6 +143,7 @@ nav .buttons a {
     max-width: 100%; /* Asegura que la imagen no se salga del recuadro */
     border-radius: 5px; /* Bordes redondeados para las imágenes */
     margin-bottom: 10px; /* Espacio entre la imagen y el texto */
+}   
 
 /*FAQ*/
 /* Fondo degradado */
