@@ -355,17 +355,26 @@ footer img {
 
 /* Sobre nosotros */
 .head-about h2{
-    font-size: 2em;
-    justify-content: center;
-    margin-left: 500px;
-    align-items: center;
-    color:#ffc107;
+    text-align: center;
+    font-size: 25px;
+    color:#FACC15;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-top: 50px;
+}
+
+.head-about h2::after{
+    content: "";
+    height: 5px;
+    width: 250px;
+    background-color: #FACC15;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
 }
 .container{
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-    justify-content: center;
+    padding: 0px 60px;
+    margin: 60px auto;
 
 }
 
